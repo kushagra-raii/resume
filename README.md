@@ -1,2 +1,3 @@
-# resume
-resume Web for learning
+# Resume
+Resume Website for learning Web Developement.
+
