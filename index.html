@@ -2,28 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Resume website of Kushagra Rai who is a web developer learning new technologies.Purpose of this web site is to reach people who are looking for a web developer." />
-    <meta property="og:image" content="Images/untitled.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:title" content="Resume website for Learning Web Development." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume website of Kushagra Rai who is a web developer learning new technologies.Purpose of this web site is to reach people who are looking for a web developer">
+    <meta property="og:image" content="Images/untitled.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:title" content="Resume website for Learning Web Development.">
     <meta property="og:description"
-        content="This website contains general introduction, Education, Skills, and Projects of Kushagra Rai(Web devloper). Purpose of this web site is to reach people who are looking for a web developer. " />
-    <title>Kushagra Rai resume</title>
+        content="This website contains general introduction,Education,Skills and Projects of Kushagra Rai" >
+    <title>Kushagra Rai Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
-<body style="font: 1em sans-serif; padding-right: 0px;">
+<body>
     <header>
         <hr>
-        <img style="float: left; padding-right: 10px; padding-top: 11px" src="Images\linkInProf_adobe_express.png"
-            alt="Display picture" width="195px" title="Profile Picture" />
+        <img src="Images\linkInProf_adobe_express.png" class="prof" alt="Display picture" title="Profile Picture" >
         <h1 style="margin-bottom: 9px; margin-top: 9px">Kushagra rai</h1>
         <h2 style="margin-bottom: 9px; margin-top: 9px">BTech CSE Core</h2>
-        <p>
-            I am a <strong>Curious Learner</strong> loves Development and Design.
-            <br>
-            HackerRank =3 Star at <em>Java</em>. <br>
+        <p>I am a <strong>Curious Learner</strong> loves Development and Design.</p>
+        <p> HackerRank =3 Star at <em>Java</em>. <br>
             Email:
             <a href="mailto:kushagrarai83@gmail.com">kushagrarai83@gmail.com</a>
             <br>
@@ -32,18 +31,19 @@
                 href="https://www.linkedin.com/in/kushagrarai-">Visit my profile.</a>
             <br>
         </p>
+
         <nav>
-            <ul style="list-style-type: none">
-                <li style="display: inline; margin-right: 8px">
-                <a href="#Education">Education</a>
+            <ul>
+                <li >
+                    <a href="#Education">Education</a>
                 </li>
-                <li style="display: inline; margin-right: 8px">
+                <li >
                     <a href="#Project">Project</a>
                 </li>
-                <li style="display: inline; margin-right: 8px">
+                <li >
                     <a href="#Skills">Skills</a>
                 </li>
-                <li style="display: inline; margin-right: 0px">
+                <li >
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
@@ -54,7 +54,8 @@
     <main>
         <section id="Education">
             <h2 style="margin-bottom: 5px">Eduction</h2>
-            <table border="">
+            <br>
+            <table>
                 <thead>
                     <tr>
                         <th>Program/Course</th>
@@ -71,26 +72,28 @@
                     <tr>
                         <td>JEE</td>
                         <td>
-                            <a href="jee.html" target="_blank" title="Detailed result">82%</a>
+                            <a href="jee.html"  title="Detailed result">82%</a>
                         </td>
-                        <td>Govt.</td>
+                        <td>-</td>
                     </tr>
                     <tr>
                         <td>12 <sup>th</sup></td>
                         <td>
-                            <a href="twelfth.html" target="_blank" title="Detailed result">81%</a>
+                            <a href="twelfth.html"  title="Detailed result">81%</a>
                         </td>
                         <td>SHPS</td>
                     </tr>
                     <tr>
                         <td>10 <sup>th</sup></td>
                         <td>
-                            <a href="tenth.html" target="_blank" title="Detailed result">90%</a>
+                            <a href="tenth.html"  title="Detailed result">90%</a>
                         </td>
                         <td>SHPS</td>
                     </tr>
                 </tbody>
             </table>
+            <br>
+            <br>
             <hr>
             <br>
         </section>
@@ -100,8 +103,8 @@
             <ol type="I">
                 <article id="stonePaperScissor">
                     <li>
-                        <h3 style="margin: top 0px; margin-bottom: 5px">
-                            Stone Paper Scissor
+                        <h3 style=" margin-bottom: 5px">
+                            Stone Paper Scissor Game
                         </h3>
                     </li>
                     <ul>
@@ -137,33 +140,35 @@
 
         <section id="Skills">
             <h2 style="margin-bottom: 5px">Skills</h2>
-            <table>
+            <br>
+            <table class="skill" id="secSkill">
                 <tr>
-                    <th>Skills</th>
-                    <th>Level (out of 5 * )</th>
+                    <th class="skill">Skills</th>
+                    <th class="skill">Level (out of 5 * )</th>
                 </tr>
                 <tr>
-                    <td>Color Grading </td>
-                    <td>* * * * *</td>
+                    <td class="skill">Color Grading </td>
+                    <td class="skill">* * * * *</td>
                 </tr>
                 <tr>
-                    <td>HTML</td>
-                    <td>* * * * *</td>
+                    <td class="skill">HTML</td>
+                    <td class="skill">* * * * *</td>
                 </tr>
                 <tr>
-                    <td>Photo Manipulation &nbsp; </td>
-                    <td>* * * *</td>
+                    <td class="skill">Photo Manipulation &nbsp; </td>
+                    <td class="skill">* * * *</td>
                 </tr>
                 <tr>
-                    <td>JAVA</td>
-                    <td>* * *</td>
+                    <td class="skill">JAVA</td>
+                    <td class="skill">* * *</td>
                 </tr>
                 <tr>
-                    <td>CSS</td>
-                    <td>* *</td>
+                    <td class="skill">CSS</td>
+                    <td class="skill">* *</td>
                 </tr>
             </table>
-            <br />
+            <br>
+            <br>
             <hr />
         </section>
 
@@ -180,10 +185,10 @@
                     <br><br>
                     <label for="clientAim">Main aim of website </label>
                     <input type="text" name="aim" id="clientAim">
-                    <br><br>
+                    <br>
                 </article>
 
-                <article id="targetAudience">
+                <!-- <article id="targetAudience">  
                     <h4>Target Audience</h4>
                     <label for="minAgeofTA">Age Group</label>
                     <label for="minAgeofTA">From</label>
@@ -209,24 +214,24 @@
                     <br><br>
                     <label for="brandFont">Font </label>
                     <input type="text" id="brandFont" name="brandFont" placeholder="Any preference">
-                </article>
+                </article> -->
 
                 <article id="moreInfo">
                     <h4>More Description</h4>
                     <textarea name="More" id="" cols="35" rows="3"></textarea>
                     <br><br>
-                    <input type="reset">
-                    <input type="submit" value="Submit">
+                    <input class="button" type="reset">
+                    <input class="button" type="submit" value="Submit">
                 </article>
             </form>
+            <br>
             <hr />
         </section>
     </main>
 
     <footer>
-        <br><br>
         <a href="#">Back to Top</a>
-        <br><br>
+        <br>
         <hr>
     </footer>
 </body>
