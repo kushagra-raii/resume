@@ -1,0 +1,92 @@
+body {
+    color: #ffffff;
+    font-family: arial;
+    padding-right: 0px;
+    background-color: #18181b;
+}
+
+h1,h2,h3,h4,h5,h6,label {
+    font-family: verdana;
+}
+
+a {
+    color: #00ffff;
+    font-family: cursive;
+}
+
+table {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+table,th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tfoot>tr>td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+nav>ul>li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ol>article>ul>li {
+    margin-bottom: 2px;
+}
+
+ol {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+hr {
+    margin: 6px;
+}
+
+.prof {
+    float: left;
+    padding-right: 10px;
+    padding-top: 11px;
+    height: 220px;
+}
+
+.skill {
+    text-align: left;
+    border-style: none;
+}
+
+.button {
+    padding: 5px;
+    background-color: #E1d8b3;
+    color: #1c2a44;
+    font-weight: 700;
+    border-width: 0;
+}
+
+#secSkill {
+    width: auto;
+}
+
+#contact {
+    margin-top: 17px;
+}
